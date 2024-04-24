@@ -1,0 +1,19 @@
+{
+  "name": "vitest-vscode-coverage-null",
+  "version": "0.0.1",
+  "description": "nullish coverage from vitest vscode",
+  "keywords": [],
+  "license": "MIT",
+  "type": "module",
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+    "test": "vitest dev"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^1.5.1",
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.1"
+  }
+}

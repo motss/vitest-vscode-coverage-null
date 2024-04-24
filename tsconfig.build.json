@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "buildOptions": {
+    "incremental": true,
+    "force": true
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "packages/test-a/.config"
+    }
+  ]
+}

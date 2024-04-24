@@ -1,0 +1,11 @@
+{
+  "name": "test-a",
+  "version": "0.0.1",
+  "description": "nullish coverage from vitest vscode",
+  "keywords": [],
+  "license": "MIT",
+  "type": "module",
+  "workspaces": [
+    "./packages/*"
+  ]
+}
